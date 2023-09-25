@@ -7,7 +7,19 @@ public class testClass {
 		//create new random instance
 		Random rand = new Random();
 		//create upper bounding variable for random function
-		int upperBound = 2;
+		int upperBound = 3;
+		int whileHolder = 2;
+	
+		//while loop to test randomness
 		
-	}
+		//while(whileHolder == 2) {
+		//	int randInt = rand.nextInt(upperBound);
+		//	System.out.println(randInt);
+		//}
+		
+		//Print random number
+		int randInt = rand.nextInt(upperBound);
+		System.out.println(randInt);
+	}	
+	
 }
