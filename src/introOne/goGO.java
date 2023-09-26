@@ -22,7 +22,18 @@ public class goGO {
 		
 		//testing how this works with pushing to Git
 		
-		//
+		//calling test method
+		int a = 2;
+		int b = 4;
+		System.out.println(mathADD(a,b));
+		
+		
+	}
+	
+	//test method for basic addition
+	public static int mathADD(int a, int b) {
+		int result = a + b;
+		return result;
 		
 	}
 
