@@ -36,5 +36,7 @@ public class goGO {
 		return result;
 		
 	}
+	
+	//merge test?
 
 }
